@@ -1,0 +1,89 @@
+body{
+    background-color:hsl(216, 12%, 8%) ;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px
+}
+
+.attribution{
+    color: white;
+    text-align: center;
+}
+
+.avaliador{
+     display: flex;
+     justify-content: space-between;
+}
+
+.menuAvaliador{
+    background-color:hsl(213, 19%, 18%);
+    border-radius: 20px;
+    margin: 15rem auto;
+    padding: 1rem;
+    width: 400px;
+}
+
+.estrela{
+    margin-bottom: 1rem;
+}
+
+.hide{
+    background-color:hsl(213, 19%, 18%);
+    border-radius: 20px;
+    display: none;
+    margin: 15rem auto;
+    padding: 1rem;
+    width: 400px;
+  
+}
+
+.menuAvaliador{
+    color:hsl(217, 12%, 63%);
+   
+    width: 400px;
+}
+
+.numero{
+    background-color: hsl(216, 23%, 27%);
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+    font-size: 1.5rem;
+    height: 3rem;
+    line-height: 200%;
+    width: 3rem;
+    text-align: center;
+}
+
+.numero:hover{
+    background-color:hsl(25, 97%, 53%);
+    color: white;
+}
+.paragrafo{
+    line-height: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.submit{
+    background-color:hsl(25, 97%, 53%);
+    border: 0 solid hsl(25, 97%, 53%);
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    height: auto;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    width: 400px;
+}
+
+.submit:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+}
+
+.titulo{
+    color: white;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
