@@ -14,14 +14,6 @@ body{
      justify-content: space-between;
 }
 
-.menuAvaliador{
-    background-color:hsl(213, 19%, 18%);
-    border-radius: 20px;
-    margin: 15rem auto;
-    padding: 1rem;
-    width: 400px;
-}
-
 .estrela{
     margin-bottom: 1rem;
 }
@@ -30,15 +22,25 @@ body{
     background-color:hsl(213, 19%, 18%);
     border-radius: 20px;
     display: none;
+    height: 300px;
     margin: 15rem auto;
     padding: 1rem;
-    width: 400px;
+    width: 300px;
   
 }
 
+.imagemDiv{
+    width: 100%;
+    text-align: center;
+}
+
 .menuAvaliador{
+    background-color:hsl(213, 19%, 18%);
+    border-radius: 20px;
     color:hsl(217, 12%, 63%);
-   
+    display: block;
+    margin: 15rem auto;
+    padding: 1rem;
     width: 400px;
 }
 
@@ -58,9 +60,17 @@ body{
     background-color:hsl(25, 97%, 53%);
     color: white;
 }
+
 .paragrafo{
+    color: hsl(217, 12%, 63%);
     line-height: 1.3rem;
     margin-bottom: 1rem;
+}
+
+.resultado{
+    color: hsl(25, 97%, 53%);
+    margin: 1rem 0;
+    text-align: center;
 }
 
 .submit{
@@ -86,4 +96,5 @@ body{
     color: white;
     font-size: 1.75rem;
     margin-bottom: 1rem;
+    text-align: center;
 }

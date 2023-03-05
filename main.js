@@ -1,10 +1,18 @@
-    const esconde = document.getElementById("menuDeAvaliacao")
-    const elementoObrigado = document.getElementById("avaliacaoCompleta")
-    const nota = document.querySelectorAll(".numero")
-    const elementoAvaliacao = document.getElementById('selecinado')
+const menuAvaliacao = document.getElementById("menuDeAvaliacao")
+const avaliacaoCompleta = document.getElementById("avaliacaoCompleta")
+const numeros = document.querySelectorAll(".numero")
+
+numeros.forEach(numero => {
+    numero.addEventListener("click", () => {
+        const numeroSelecionado = numero.textContent;
+      numero.style.backgroundColor = "hsl(25, 97%, 53%)";
+      numero.style.color = "white"
+      const resultado = document.querySelector(".resultado")
+      resultado.innerHTML = `You selected ${numeroSelecionado} out of 5`
+    });
+  })
 
 function esconder(){
-    esconde.style.display = "none"
-    elementoObrigado.style.display = "block"
-    
+    menuAvaliacao.style.display = "none";
+    avaliacaoCompleta.style.display = "block";
 }
